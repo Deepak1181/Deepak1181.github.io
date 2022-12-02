@@ -1,5 +1,6 @@
 import { Center } from '@chakra-ui/react'
 import React from 'react'
+import Contact from './Contact'
 import "./Home.css"
 import Project from './Project'
 import Skill from './Skill'
@@ -31,6 +32,7 @@ I'm a passionate learner who's always willing to learn and work across technolog
     </div>
     <Skill/>
     <Project/>
+    <Contact/>
     </div>
 
   )

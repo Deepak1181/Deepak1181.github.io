@@ -16,6 +16,7 @@ text-align: center;
 padding: 5px;
 width:80%;
 margin-top: 10px;
+margin: auto;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
 
@@ -30,6 +31,9 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border: 0px solid rgb(88, 32, 220);
     width: 50%;
     margin: auto;
+ }
+ .box:hover{
+    background-color: aquamarine;
  }
 .images{
     width:80%;
