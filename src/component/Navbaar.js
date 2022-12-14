@@ -1,41 +1,30 @@
+import { Box,Heading,Spacer,ButtonGroup,Button,Flex } from "@chakra-ui/react"
+import deepak from "./images/Deepak.png"
+export default function Navbar(){
 
-import './index.css';
-import { Image,Box, Button, ButtonGroup, Container, Flex, Heading, Spacer, Tab, TabList, TabPanel, TabPanels, Tabs, useColorModeValue} from '@chakra-ui/react';
-
-
-
-function Navbaar() {
- 
- 
- 
- return <div>
-<Box  >
-  {/* navbar */}
-<Box  bg='white' sx={{ position: '-webkit-sticky',  position: 'sticky', top: '0' }} >
-<Flex border={'1px solid red'} minWidth='max-content' alignItems='center' gap='2'  >
-
+   
+    return <>
+    <Box h='100px' bg={"rgb(38,38,38)"} sx={{ position: '-webkit-sticky', /* Safari */ position: 'sticky', top: '0', }} >
+<Flex  minWidth='max-content' alignItems='center' gap='2'  >
   <Box p='2'>
-    <Heading size='md' color={'black'} >Deepak</Heading>
+    {/* <Heading size='md' pl={10} color={'black'} >Deepak</Heading> */}
+    <img hight={"125px"} width={"115px"} src={deepak}/>
   </Box>
   <Spacer />
-  <ButtonGroup  mr='100px' gap='2'>
-    <Button   variant='outline' colorScheme='red'>About</Button>
-    <Button   variant='outline' colorScheme='teal'>home</Button>
-    <Button  variant='outline' colorScheme='teal'>Skills</Button>
-    <Button  variant='outline' colorScheme='teal'>Projects</Button>
-    <Button  variant='outline' colorScheme='teal'>Contact</Button>
-    <Button  variant='outline' colorScheme='teal'>Resume</Button>
+  <ButtonGroup  mt={7} mr='100px' gap='2'>
+  <a href="#home" ><Button  variant='outline' colorScheme='rgb(206,147,216)'>Home</Button></a>
+   
+    <a href="#about" ><Button  variant='outline' colorScheme='rgb(206,147,216)'>About</Button></a>
+   
+    <a href='#skill'><Button  variant='outline' colorScheme='rgb(206,147,216)'>Skill</Button></a>
+    
+    <a href='#project' ><Button   variant='outline' colorScheme='rgb(206,147,216)'>  Projects</Button></a>
+    <a href="#contact" > <Button  variant='outline' colorScheme='rgb(206,147,216)'>Contact</Button></a>
+   
+   
+    
   </ButtonGroup>
-
 </Flex>
 </Box>
-
-
-      
- </Box> 
-
-
-   </div>
+</>
 }
-
-export default Navbaar;

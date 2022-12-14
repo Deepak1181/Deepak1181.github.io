@@ -10,17 +10,33 @@
     margin-top: 30px;
     color: rgb(198, 115, 6);
 }
-/* .bg{
-    background-image: url("https://media1.giphy.com/media/i4jKn7itdV2Tvjzj6Y/giphy.gif?cid=ecf05e474fnlorhxj1w4nvx1njti09wgbroltgp48s2mwo8y&rid=giphy.gif&ct=g");
-  width: 100%;
+.bg{
+    /* background-image: url("https://media1.giphy.com/media/i4jKn7itdV2Tvjzj6Y/giphy.gif?cid=ecf05e474fnlorhxj1w4nvx1njti09wgbroltgp48s2mwo8y&rid=giphy.gif&ct=g");
+  width: 100%; */
+  background-color: rgb(38,38,38);
  
-} */
+}
 .type{
     margin: auto;
     width: 80%;
     font-weight: bolder;
-    font-size: 50px;
-    color: #0c0c0c;
+    font-size:50px;
+    color: rgb(206,147,216);
     
   }
-  
+
+  @media screen and (max-width:638px){
+    .type{
+      font-size:25px
+    }
+  }
+
+   @media screen and (max-width:538px){
+    .whoI{
+      text-align: center;
+      width: 80%;
+      margin: auto;
+      margin-top: 30px;
+      color: rgb(198, 115, 6);
+  }
+  }

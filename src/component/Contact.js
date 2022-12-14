@@ -20,9 +20,9 @@ import send from "./images/send.png";
 export default function Contact() {
   return (
 <>
-    <Box padding="1rem" bg="rgb(237,242,248)" id="footer">
+    <Box id="contact" padding="1rem" bg="rgb(38,38,38)" >
     <br />
-    <Heading as="b" color="brand.themeColor">
+    <Heading as="b" color="rgb(206,147,216)">
       Reach Out To Me
     </Heading>
     <br />
@@ -59,7 +59,7 @@ export default function Contact() {
     {/* form to send message */}
    
   </Box>
-    <FormControl  margin="auto" bg="rgb(237,242,248)">
+    <FormControl  margin="auto" bg="rgb(38,38,38)">
       <Input w="60%" background="white" type="text" placeholder="Your Name" mb="4" />
       <Input   w="60%" background="white" type="email" placeholder="Your Email Addresss" mb="4" />
       <Textarea  w="60%" background="white" placeholder="Type your message..." size="lg" mb="4" />
