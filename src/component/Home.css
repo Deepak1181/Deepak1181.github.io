@@ -1,7 +1,7 @@
 .home{
     font-size: x-large;
     color: rgb(243, 149, 27);
-    
+    margin-top: 10px;
 }
 .whoI{
     text-align: center;
@@ -14,8 +14,18 @@
     /* background-image: url("https://media1.giphy.com/media/i4jKn7itdV2Tvjzj6Y/giphy.gif?cid=ecf05e474fnlorhxj1w4nvx1njti09wgbroltgp48s2mwo8y&rid=giphy.gif&ct=g");
   width: 100%; */
   background-color: rgb(38,38,38);
+  
  
 }
+.nav-menu .active{
+
+  padding-bottom: 10px;
+ border-bottom: 10px solid rgb(255, 255, 142); 
+ border: 2px solid red;
+}
+
+
+
 .type{
     margin: auto;
     width: 80%;

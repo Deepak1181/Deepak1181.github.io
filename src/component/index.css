@@ -32,6 +32,12 @@ body {
     transform: translate(-50%, -50%);
     color: white;
   }
+  .nav-menu .active{
+
+    padding-bottom: 10px;
+   border-bottom: 10px solid rgb(255, 255, 142); 
+   border: 2px solid rgb(14, 11, 110);
+  }
   
   
   

@@ -9,12 +9,12 @@
    
 }
 .box{
-border: 0px solid green;
-
+border: 2px solid green;
 justify-content: center;
 text-align: center;
 padding: 5px;
 width:80%;
+height: 100%;
 margin-top: 10px;
 margin: auto;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -22,18 +22,64 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
  }
  
- .box>img{
+ .boxes{
+   border: 0px solid rgb(111, 0, 128);
+   
+   justify-content: center;
+   text-align: center;
+   padding: 15px;
+   width:80%;
+   margin-top: 10px;
+   margin: auto;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   
+   
+    }
+
+ .boxes>img{
     margin: auto;
     border: 0px solid red;
-    
  }
+
+ .tool{
+   border: 0px solid green;
+   justify-content: center;
+   text-align: center;
+   padding: 5px;
+   width:80%;
+   height: 100%;
+   margin-top: 10px;
+   margin: auto;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   
+   
+    }
+    
+ .tool>img{
+   margin: auto;
+   border: 0px solid red;
+   height: 70%;
+  
+}
+
+.tool:hover{
+   background-color: rgb(206,147,216);
+   height:85%;
+   border: 1px solid rgb(112, 7, 131);
+}
+ .boxes:hover{
+   background-color: rgb(206,147,216);
+   height: 87%;
+   border: 1px solid rgb(112, 7, 131);
+}
  .box>h1{
     border: 0px solid rgb(88, 32, 220);
-    width: 50%;
     margin: auto;
+    width: 50%;
  }
  .box:hover{
     background-color: rgb(206,147,216);
+    width:85%;
  }
 .images{
     width:80%;

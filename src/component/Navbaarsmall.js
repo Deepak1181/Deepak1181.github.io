@@ -33,9 +33,9 @@ export default function Navbaarsmall(){
   <a href="#home" ><Button   varient='outline'  colorScheme='blackAlpha'   onClick={onClose} >Home</Button></a>
   <a href="#project" ><Button  varient='outline'   colorScheme='blackAlpha'  onClick={onClose} >Project</Button></a>
   <a href="#about" ><Button  varient='outline'  colorScheme='blackAlpha'   onClick={onClose} >About</Button></a>
+  <a href="#skill" ><Button  varient='outline'   colorScheme='blackAlpha'  onClick={onClose} >Skill</Button></a>
   <a href="#contact" ><Button  varient='outline'  colorScheme='blackAlpha'   onClick={onClose} >Contact</Button></a>
-  <a href="#resume" ><Button  varient='outline'  colorScheme='blackAlpha'   onClick={onClose} >Resume</Button></a>
-
+  <a href="#resume" > <Button bg='rgb(206,147,216)' ><a href="https://github.com/dkp041297/Resume/raw/main/Deepak%20Resume.pdf" download>  Resume</a></Button></a>
 </Box>
     </DrawerBody>
   </DrawerContent>

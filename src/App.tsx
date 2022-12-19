@@ -11,7 +11,8 @@ import Navbaarsmall from './component/Navbaarsmall';
 function App() {
   const [isSmallerThan800] = useMediaQuery('(min-width: 800px)')
   return (
-    <div className="App">
+
+    <div className="App" id="home">
  
  {
  isSmallerThan800? <Navbaar/>:<Navbaarsmall/>
