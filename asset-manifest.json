@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.62e09dc3.js",
+    "main.css": "/static/css/main.4f01b515.css",
+    "main.js": "/static/js/main.12da51dc.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Kindmeal.png": "/static/media/Kindmeal.589de746bdbfbecaa325.png",
+    "static/media/outlook.png": "/static/media/outlook.79274587e9ac192c36a7.png",
+    "static/media/Deepak.png": "/static/media/Deepak.0c2fd0ee9bea247e5870.png",
+    "static/media/netlify.webp": "/static/media/netlify.dde6104e9622d9b2baba.webp",
+    "static/media/vercel.webp": "/static/media/vercel.04e07514c9772fb1db27.webp",
+    "static/media/github.webp": "/static/media/github.fa51683e76ec5e401a2c.webp",
+    "static/media/scode.webp": "/static/media/scode.945cc604c02f10bb9dc4.webp",
+    "static/media/nextjs.webp": "/static/media/nextjs.5a7bcf07b9ff82210e96.webp",
+    "static/media/node js.webp": "/static/media/node js.9491c3e8aff1f49eb015.webp",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.62e09dc3.js.map": "/static/js/main.62e09dc3.js.map",
+    "main.4f01b515.css.map": "/static/css/main.4f01b515.css.map",
+    "main.12da51dc.js.map": "/static/js/main.12da51dc.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.62e09dc3.js"
+    "static/css/main.4f01b515.css",
+    "static/js/main.12da51dc.js"
   ]
 }
