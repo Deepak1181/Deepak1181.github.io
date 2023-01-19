@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.ff2f8f54.css",
-    "main.js": "/static/js/main.513a4d1b.js",
+    "main.js": "/static/js/main.a5c375f5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Kindmeal.png": "/static/media/Kindmeal.589de746bdbfbecaa325.png",
     "static/media/outlook.png": "/static/media/outlook.79274587e9ac192c36a7.png",
+    "static/media/DeepakResume.pdf": "/static/media/DeepakResume.07a7ebbab4f2ee48d6a1.pdf",
     "static/media/Deepak.png": "/static/media/Deepak.0c2fd0ee9bea247e5870.png",
     "static/media/netlify.webp": "/static/media/netlify.dde6104e9622d9b2baba.webp",
     "static/media/vercel.webp": "/static/media/vercel.04e07514c9772fb1db27.webp",
@@ -14,11 +15,11 @@
     "static/media/node js.webp": "/static/media/node js.9491c3e8aff1f49eb015.webp",
     "index.html": "/index.html",
     "main.ff2f8f54.css.map": "/static/css/main.ff2f8f54.css.map",
-    "main.513a4d1b.js.map": "/static/js/main.513a4d1b.js.map",
+    "main.a5c375f5.js.map": "/static/js/main.a5c375f5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff2f8f54.css",
-    "static/js/main.513a4d1b.js"
+    "static/js/main.a5c375f5.js"
   ]
 }
