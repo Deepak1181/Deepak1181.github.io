@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c9388975.css",
-    "main.js": "/static/js/main.cadbb3cd.js",
+    "main.js": "/static/js/main.e2fb880b.js",
     "static/media/Sparta.png": "/static/media/Sparta.6e430a369e9a58b127a7.png",
     "static/media/Crypto.png": "/static/media/Crypto.4c6d089b199b43cce0ac.png",
     "static/media/outlool.png": "/static/media/outlool.50c35030d4841c648563.png",
@@ -19,10 +19,10 @@
     "static/media/nodejs-original.svg": "/static/media/nodejs-original.10c9e2aa0ca7edf36fceae25fec038a1.svg",
     "index.html": "/index.html",
     "main.c9388975.css.map": "/static/css/main.c9388975.css.map",
-    "main.cadbb3cd.js.map": "/static/js/main.cadbb3cd.js.map"
+    "main.e2fb880b.js.map": "/static/js/main.e2fb880b.js.map"
   },
   "entrypoints": [
     "static/css/main.c9388975.css",
-    "static/js/main.cadbb3cd.js"
+    "static/js/main.e2fb880b.js"
   ]
 }
